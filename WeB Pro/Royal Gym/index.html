@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Gym</title>
+    <link rel="icon" type="image-x/icon" href="logo.jpg" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-image: url(pexels-photo-4164510.webp);
+            color: white;
+            font-family: 'Balsamiq Sans', cursive;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .head {
+            /* border: 3px solid black; */
+
+        }
+
+        #left {
+            /* border: 3px solid red; */
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            left: 45px;
+
+        }
+
+        #left img {
+            width: 80px;
+        }
+
+        .left div {
+            padding-left: px;
+        }
+
+        #center {
+            /* border: 3px solid blue; */
+            width: 33%;
+            margin: 20px auto;
+            display: block;
+
+
+        }
+
+        #right {
+            /* border: 3px solid green; */
+
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            right: 22px;
+
+        }
+
+        .nav {
+            display: inline-flex;
+
+        }
+
+        .nav li {
+            display: inline-flex;
+        }
+
+        .nav li a {
+            padding: 20px 20px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav li a:hover {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .but {
+            margin: 10px;
+            padding: 5px 10px;
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            font-family: 'Balsamiq Sans', cursive;
+        }
+
+        .but:hover {
+            background-color: gainsboro;
+            color: black;
+        }
+
+        .contain {
+            /* border: 2px solid white; */
+            width: 33%;
+            margin: 8px 80px;
+            border-radius: 10px;
+            padding: 150px 100px;
+        }
+
+        .inp input {
+            width: 77%;
+            text-align: center;
+            display: block;
+            padding: 3px;
+            border-radius: 7px;
+            font-size: 18px;
+            margin: 11px auto;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .contain button {
+            width: 77%;
+            margin-left: 60px;
+        }
+
+        .contain h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="head">
+        <div id="left">
+            <img src="fitness-gym-logo-design-template-600w-1661439196.webp" alt="">
+            <div>Royal Gym </div>
+        </div>
+        <div id="center">
+            <ul class="nav">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">MY FITNESS</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        <div id="right">
+            <button class="but">Call Us Now</button>
+            <button class="but">Email Us</button>
+        </div>
+    </header>
+    <div class="contain">
+        <h1> Join Royal Gym Noww!</h1>
+        <form action="backend.php">
+            <div class="inp">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="inp">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="inp">
+                <input type="text" name="" placeholder="Enter Your Phone No">
+            </div>
+            <div class="inp">
+                <input type="text" name="" placeholder="Address">
+            </div>
+            <button class="but">
+                Submit
+            </button>
+    </div>
+    </div>
+</body>
+
+</html>
